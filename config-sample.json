@@ -1,0 +1,31 @@
+{
+  "criticalLiquidTemperature": 40,
+  "pump": [
+    {
+      "temperature": 40,
+      "speed": 60
+    },
+    {
+      "temperature": 60,
+      "speed": 80
+    },
+    {
+      "temperature": 70,
+      "speed": 100
+    }
+  ],
+  "fans": [
+    {
+      "temperature": 40,
+      "speed": 20
+    },
+    {
+      "temperature": 60,
+      "speed": 60
+    },
+    {
+      "temperature": 70,
+      "speed": 100
+    }
+  ]
+}
