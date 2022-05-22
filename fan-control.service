@@ -1,0 +1,14 @@
+[Unit]
+Description=NZXT Fan / Pump controller
+
+[Service]
+User=root
+Environment="PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/linuxbrew/.linuxbrew/bin""
+WorkingDirectory=/usr/local/bin/fan-control
+ExecStart=/usr/bin/env node fan-control.js
+StandardOutput=null
+Restart=always
+RestartSec=1
+
+[Install]
+WantedBy=multi-user.target
